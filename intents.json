@@ -1,0 +1,110 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hi there",
+              "How are you",
+              "Is anyone there?",
+              "Hey",
+              "Hola",
+              "Hello",
+              "Good day",
+              "Namaste",
+              "yo"
+          ],
+          "responses": [
+              "Hello",
+              "Good to see you again",
+              "Hi there, how can I help?"
+          ],
+          "context": [
+              ""
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": [
+              "Bye",
+              "See you later",
+              "Goodbye",
+              "Get lost",
+              "Till next time",
+              "bbye"
+          ],
+          "responses": [
+              "See you!",
+              "Have a nice day",
+              "Bye! Come back again soon."
+          ],
+          "context": [
+              ""
+          ]
+      },
+      {
+          "tag": "Identity",
+          "patterns": [
+              "Who are you",
+              "what are you"
+          ],
+          "responses": [
+              "I am HuyN, a Deep-Learning chatbot"
+          ]
+      },
+      {
+          "tag": "programmer",
+          "patterns": [
+              "Who made you",
+              "Who created you",
+              "Who is your dad",
+              "who designed you",
+              "who programmed you"
+          ],
+          "responses": [
+              "I was made by HuyN."
+          ]
+      },
+      {
+          "tag": "huyn",
+          "patterns": [
+              "who is he",
+              "who is that",
+              "who is huyn",
+              "huy nguyen"
+          ],
+          "responses": [
+              "Head over to his any of his social profiles to find out! Linkedin: https://www.linkedin.com/in/nguyen-huy-33449525b/ Github: https://github.com/HuyN2105"
+          ]
+      },
+      {
+          "tag": "contact",
+          "patterns": [
+              "contact developer",
+              "contact HuyN",
+              "contact programmer",
+              "contact creator"
+          ],
+          "responses": [
+              "You can contact my creator at his Linkedin profile : https://www.linkedin.com/in/nguyen-huy-33449525b/"
+          ]
+      },
+      {
+          "tag": "suggest",
+          "patterns": [
+              "you are useless","useless","suggest","suggestions","you are bad"
+          ],
+          "responses": [
+              "Please mail your suggestions to huyn.dev.2105@gmail.com. Thank you for helping me improve!"
+          ]
+      },
+      {
+          "tag": "age",
+          "patterns": [
+              "how old are you","when were you made","what is your age"
+          ],
+          "responses": [
+              "I was made in 2023, if that's what you are asking!"
+          ]
+      }
+  ]
+}
