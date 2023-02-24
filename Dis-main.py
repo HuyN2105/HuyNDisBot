@@ -18,35 +18,10 @@ except ImportError:
     "Either discord.py is not installed or you are running an older and unsupported version of it."
     "Please make sure to check that you have the latest version of discord.py! (try reinstalling the requirements?)"
   )
-
-# ASCII logo, uses Colorama for coloring the logo.
-logo = f"""
-{Fore.LIGHTBLUE_EX}       {Fore.GREEN}cclloooooooooooooo.
-{Fore.LIGHTBLUE_EX},;;;:{Fore.GREEN}oooooooooooooooooooooo.
-{Fore.LIGHTBLUE_EX};;;;{Fore.GREEN}oooooo{Fore.WHITE}kKXK{Fore.GREEN}ooo{Fore.WHITE}NMMWx{Fore.GREEN}ooooo:..
-{Fore.LIGHTBLUE_EX};;;;{Fore.GREEN}oooooo{Fore.WHITE}XMMN{Fore.GREEN}oooo{Fore.WHITE}XNK0x{Fore.GREEN}dddddoo
-{Fore.LIGHTBLUE_EX};;;;{Fore.GREEN}looo{Fore.WHITE}kNMMWx{Fore.GREEN}ooood{Fore.BLUE}xxxxxxxxxxxxxo
-{Fore.LIGHTBLUE_EX};;;;{Fore.GREEN}ld{Fore.WHITE}kXXXXK{Fore.GREEN}ddddd{Fore.BLUE}xxxxxxxxxxxxxxxx
-{Fore.LIGHTBLUE_EX};;{Fore.BLUE}lxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-{Fore.LIGHTBLUE_EX};;{Fore.BLUE}xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-{Fore.LIGHTBLUE_EX};;{Fore.BLUE}xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-{Fore.LIGHTBLUE_EX};;{Fore.BLUE}xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-{Fore.LIGHTBLUE_EX};;{Fore.BLUE}xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-{Fore.LIGHTBLUE_EX};;{Fore.BLUE}xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-{Fore.BLUE}ldxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx{Fore.RESET}
-"""
-
 # inspect.cleandoc() is used to remove the indentation from the message
 # when using triple quotes (makes the code much cleaner)
 # Typicly developers woudln't use cleandoc rather they move the text
 # all the way to the left
-print(logo + inspect.cleandoc(f"""
-    Hey, welcome to the active developer badge bot.
-    Please enter your bot's token below to continue.
-
-    {Style.DIM}Don't close this application after entering the token
-    You may close it after the bot has been invited and the command has been ran{Style.RESET_ALL}
-"""))
 
 # Try except block is useful for when you'd like to capture errors
 try:
